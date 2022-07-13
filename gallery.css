@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.gallery-cont {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #d1ccc0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.back{
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.media-cont{
+    height: 13rem;
+    width: 13rem;
+    border: 4px solid white;
+    margin: 2rem;
+}
+.media{
+    height: calc( 100% - 1.5rem - 1.5rem );
+    
+}
+.delete{
+    background-color: crimson;
+}
+.download{
+    background-color: #4b4b4b;
+}
+.action{
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.media> *{
+     width: 100%;
+     height: 100%;
+}
+
+
+
